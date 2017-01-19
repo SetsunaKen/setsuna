@@ -3,15 +3,21 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.3/css/uikit.min.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.5/css/uikit.min.css" />
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="theme-color" content="#fff">
 		<link rel="stylesheet" href="css/pace.min.css" />
 		<link rel="stylesheet" href="css/main.css" />
+        
 		<title>Setsuna Ken - VN Circle</title>
 	</head>
 <body>
 	<div class="uk-container uk-container-expand">
 		<nav class="uk-navbar-container uk-navbar-transparent" uk-sticky="bottom:#offset" uk-navbar>
-			<div class="uk-navbar-right">
+			<div class="uk-navbar-left">
+                <a class="uk-navbar-toggle" uk-navbar-toggle-icon href="#" uk-toggle="target: #offcanvas-nav"><img src="images/navbar-toggle.svg"></a>
+            </div>
+            <div class="uk-navbar-right">
 				<ul class="uk-navbar-nav">
 					<li class="uk-active"><a href="#">Home</a></li>
 					<li><a href="#">Games</a></li>
@@ -21,16 +27,62 @@
 				</ul>
 			</div>
 		</nav>
-		<section id="logo1" class="logo">
-			<img class="logo-img uk-animation-fade" src="http://placehold.it/400x250" alt="Setsuna Ken - VN Circle">
-		</section>
-		<section class="footer">
-			Copyright &copy; 2017 Setsuna Ken - Made with &#x2764; in Germany
-			<br>Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://getuikit.com/">Ulkit</a></br>
-		</section>
+        
+        <!-- Logo Section -->
+        <div class="logo-img">
+			<img class="uk-align-center" src="http://placehold.it/400x250" alt="Setsuna Ken - VN Circle">
+        </div>
+        
+        <!-- Off Canvas Menu -->
+        <div id="offcanvas-nav" uk-offcanvas="overlay: true">
+            <div class="uk-offcanvas-bar">
+                <ul class="uk-nav uk-nav-default">
+                    <li class="uk-active"><a href="#">Active</a></li>
+                    <li class="uk-parent">
+                        <a href="#">Parent</a>
+                    <ul class="uk-nav-sub">
+                        <li><a href="#">Sub item</a></li>
+                        <li><a href="#">Sub item</a></li>
+                    </ul>
+                    </li>
+                    <li class="uk-nav-header">Header</li>
+                    <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: table"></span> Item</a></li>
+                    <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: thumbnails"></span> Item</a></li>
+                    <li class="uk-nav-divider"></li>
+                    <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: trash"></span> Item</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Our Games -->
+        
+        <div class="uk-child-width-expand@s" uk-grid>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">Item</div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">Item</div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">Item</div>
+            </div>
+        </div>
+        
+        <!-- Subscribe Section -->
+        
+            <h2 class="uk-text-center">Subscribe to get more!</h2>
+        
+        
+        <!-- Footer -->
+            <div class="uk-align-right footer uk-text-right">
+			     Copyright &copy; 2017 Setsuna Ken - Made with &#x2764; in Germany
+			     <br />Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://getuikit.com/">Ulkit</a>
+            </div>
+            
 	</div>
+    <!-- JS libs -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<script src="js/pace.min.js"></script>	
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.3/js/uikit.min.js"></script>				
+	<script src="js/pace.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.5/js/uikit.min.js"></script>
 </body>
 </html>
