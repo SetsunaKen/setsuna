@@ -1,9 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700');
 
+@media screen and (max-width: 750px) {
+    .uk-navbar-nav {
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    .uk-navbar-toggle {
+        display: none !important;
+        overflow:hidden;
+    }
+}
+
 html, body {
 	font-family: 'Source Sans Pro', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+}
+
+.uk-navbar-container:not(.uk-navbar-transparent) {
+    background: #ffffff;
 }
 .logo-img {
 	margin-top: 75px;
@@ -11,4 +28,10 @@ html, body {
 .footer {
 	margin-top: 20px;
 	font-size: small;
+    padding-bottom: 20px;
+}
+
+.beta {
+    margin-right: 20px;
+    border-radius: 3px;
 }
