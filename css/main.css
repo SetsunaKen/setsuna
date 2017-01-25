@@ -29,7 +29,7 @@ html, body {
 }
 
 .uk-navbar-container:not(.uk-navbar-transparent) {
-    background: #ffffff;
+  background: #ffffff;
 	border-bottom: solid 1px rgba(0, 0, 0, 0.08);
 }
 .logo-img {
@@ -46,13 +46,13 @@ html, body {
 .footer {
 	margin-top: 20px;
 	font-size: small;
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 	bottom: 0;
 }
 
 .beta {
-    margin-right: 20px;
-    border-radius: 3px;
+  margin-right: 20px;
+  border-radius: 3px;
 	margin-left: 10px;
 	padding: 0 20px;
 }
