@@ -1,40 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-		    <meta name="viewport" content="width=device-width, initial-scale=1">
-		    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.6/css/uikit.min.css" />
-        <meta name="mobile-web-app-capable" content="yes">
-        <meta name="theme-color" content="#fff">
-		    <link rel="stylesheet" href="css/pace.min.css" />
-		    <link rel="stylesheet" href="css/main.css" />
-		    <title>Setsuna Ken - VN Circle</title>
-	</head>
-
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.9/css/uikit.min.css" />
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#fff">
+    <link rel="stylesheet" href="css/pace.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Setsuna Ken - VN Circle</title>
+</head>
 <body id="start">
-    <!-- Navbar -->
-    <nav class="uk-navbar-container" uk-sticky="bottom:#offset" uk-navbar>
-        <div class="uk-navbar-left">
-            <a class="uk-navbar-toggle" uk-navbar-toggle-icon href="#" uk-toggle="target: #offcanvas-nav"></a>
-            <a class="uk-navbar-item uk-logo" href="#">Setsuna Ken</a>
-        </div>
+    <div class="uk-container">
+        <!-- Navbar -->
+        <nav class="uk-navbar-container" uk-navbar>
+            <div class="uk-navbar-left">
+                <a class="uk-navbar-toggle" uk-navbar-toggle-icon href="#" uk-toggle="target: #offcanvas-nav"></a>
+                <a class="uk-navbar-item uk-logo" href="#">Setsuna Ken</a>
+            </div>
             <div class="uk-navbar-right">
-				<ul class="uk-navbar-nav">
-					<li class="uk-active"><a href="#">Home</a></li>
-					<li><a href="#">Games</a></li>
-					<li><a href="#">News</a></li>
-					<li><a href="#">Join Us</a></li>
-					<li><a href="#contact" uk-scroll>Contact</a></li>
-				</ul>
+                <ul class="uk-navbar-nav">
+                    <li class="uk-active"><a href="#">Home</a></li>
+                    <li><a href="#games" uk-scroll>Games</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Join Us</a></li>
+                    <li><a href="#contact" uk-scroll>Contact</a></li>
+                </ul>
                 <a class="uk-button uk-button-danger beta" href="#">Betatesters!</a>
-			</div>
-    </nav>
-     <!-- Off Canvas Menu -->
+            </div>
+        </nav>
+    </div>
+    <!-- Off Canvas Menu -->
     <div id="offcanvas-nav" uk-offcanvas="overlay: true">
-         <div class="uk-offcanvas-bar">
+        <div class="uk-offcanvas-bar">
             <ul class="uk-nav uk-nav-default">
                 <li class="uk-active"><a href="#">Active</a></li>
-                 <li class="uk-parent">
+                <li class="uk-parent">
                     <a href="#">Parent</a>
                     <ul class="uk-nav-sub">
                         <li><a href="#">Sub item</a></li>
@@ -42,88 +43,151 @@
                     </ul>
                 </li>
                 <li class="uk-nav-header">Header</li>
-                    <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: table"></span> Item</a></li>
-                    <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: thumbnails"></span> Item</a></li>
-                    <li class="uk-nav-divider"></li>
-                    <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: trash"></span> Item</a></li>
+                <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: table"></span> Item</a></li>
+                <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: thumbnails"></span> Item</a></li>
+                <li class="uk-nav-divider"></li>
+                <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: trash"></span> Item</a></li>
             </ul>
         </div>
     </div>
-	<div class="uk-container uk-container-expand">
-    <!-- Logo Section -->
-        <div class="logo-img">
-			<img class="uk-align-center" src="http://placehold.it/400x250" alt="Setsuna Ken - VN Circle Logo">
+    <div class="uk-container">
+        <!-- Logo Section -->
+        <section class="promo">
+            <h1 class="uk-text-center">We make games with heart</h1>
+            <p class="lite uk-text-center">Exploring the variety of human feelings.</p>
+            <div class="logo-img">
+                <img class="uk-align-center" src="http://placehold.it/400x200" alt="Setsuna Ken - VN Circle Logo">
+            </div>
+        </section>
+    </div>
+
+    <!-- Our Games -->
+    <section class="games">
+        <div class="uk-container">
+            <h2 id="games" class="uk-text-center">Our Games</h2>
+            <p class="lite uk-text-center space">We are passionate about our work and love to share it with others.</p>
+            <div class="uk-child-width-expand@s" uk-grid>
+                <div>
+                    <div class="uk-card uk-card-default">
+                        <div class="uk-card-media-top">
+                            <img src="http://placehold.it/400x200" alt="">
+                        </div>
+                        <div class="uk-card-badge uk-label">Coming soon</div>
+                        <div class="uk-card-body">
+                            <h3 class="uk-card-title">Love Witch Unlimited</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                        </div>
+                        <div class="uk-card-footer">
+                            <button class="uk-button uk-button-default">More</button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-default">
+                        <div class="uk-card-media-top">
+                            <img src="http://placehold.it/400x200" alt="">
+                        </div>
+                        <div class="uk-card-badge uk-label uk-label-warning">In Production</div>
+                        <div class="uk-card-body">
+                            <h3 class="uk-card-title">The Anthem of Love</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                        </div>
+                        <div class="uk-card-footer">
+                            <button class="uk-button uk-button-default">More</button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-default">
+                        <div class="uk-card-media-top">
+                            <img src="http://placehold.it/400x200" alt="">
+                        </div>
+                        <div class="uk-card-badge uk-label uk-label-danger">TBA</div>
+                        <div class="uk-card-body">
+                            <h3 class="uk-card-title">Steampunk Adventure</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                        </div>
+                        <div class="uk-card-footer">
+                            <button class="uk-button uk-button-default">More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+    </section>
 
-        <!-- Our Games -->
-        <h2 class="uk-heading-line uk-text-center space"><span>Our Games</span></h2>
-        <div class="uk-child-width-expand@s" uk-grid>
-            <div>
-                <div class="uk-card uk-card-default">
-                    <div class="uk-card-media-top">
-                        <img src="http://placehold.it/700x350" alt="">
-                    </div>
-                    <div class="uk-card-badge uk-label">Coming soon</div>
-                    <div class="uk-card-body">
-                        <h3 class="uk-card-title">Love Witch Unlimited</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                    </div>
-                    <div class="uk-card-footer">
-                        <button class="uk-button uk-button-default">More</button>
-                    </div>
+
+    <section class="news">
+        <div class="uk-container">
+            <h2 class="uk-text-center promo2">Latest News</h2>
+            <div class="uk-child-width-expand@s" uk-grid>
+                <div>
+                    <article class="uk-article">
+                        <h3 class=""><a class="uk-link-reset" href="">Heading</a></h3>
+                        <p class="uk-article-meta">Written by <a href="#">Super User</a> on 12 April 2012. Posted in <a href="#">Blog</a></p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <div class="uk-grid-small uk-child-width-auto" uk-grid>
+                            <div>
+                                <a class="uk-button uk-button-text" href="#">Read more</a>
+                            </div>
+                            <div>
+                                <a class="uk-button uk-button-text" href="#"></a>
+                            </div>
+                        </div>
+                    </article>
                 </div>
-            </div>
-            <div>
-                <div class="uk-card uk-card-default">
-                    <div class="uk-card-media-top">
-                        <img src="http://placehold.it/700x350" alt="">
-                    </div>
-                    <div class="uk-card-badge uk-label uk-label-warning">In Production</div>
-                    <div class="uk-card-body">
-                        <h3 class="uk-card-title">The Anthem of Love</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                    </div>
-                    <div class="uk-card-footer">
-                        <button class="uk-button uk-button-default">More</button>
-                    </div>
+
+                <div>
+                    <article class="uk-article">
+                        <h3 class=""><a class="uk-link-reset" href="">Heading</a></h3>
+                        <p class="uk-article-meta">Written by <a href="#">Super User</a> on 12 April 2012. Posted in <a href="#">Blog</a></p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <div class="uk-grid-small uk-child-width-auto" uk-grid>
+                            <div>
+                                <a class="uk-button uk-button-text" href="#">Read more</a>
+                            </div>
+                            <div>
+                                <a class="uk-button uk-button-text" href="#"></a>
+                            </div>
+                        </div>
+                    </article>
                 </div>
-            </div>
-            <div>
-                <div class="uk-card uk-card-default">
-                    <div class="uk-card-media-top">
-                        <img src="http://placehold.it/700x350" alt="">
-                    </div>
-                    <div class="uk-card-badge uk-label uk-label-danger">TBA</div>
-                    <div class="uk-card-body">
-                        <h3 class="uk-card-title">Steampunk Adventure</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                    </div>
-                    <div class="uk-card-footer">
-                        <button class="uk-button uk-button-default">More</button>
-                    </div>
+                <div>
+                    <article class="uk-article">
+                        <h3 class=""><a class="uk-link-reset" href="">Heading</a></h3>
+                        <p class="uk-article-meta">Written by <a href="#">Super User</a> on 12 April 2012. Posted in <a href="#">Blog</a></p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <div class="uk-grid-small uk-child-width-auto" uk-grid>
+                            <div>
+                                <a class="uk-button uk-button-text" href="#">Read more</a>
+                            </div>
+                            <div>
+                                <a class="uk-button uk-button-text" href="#"></a>
+                            </div>
+                        </div>
+                    </article>
                 </div>
             </div>
         </div>
+    </section>
 
-        <!-- Subscribe Section -->
-        <h2 class="uk-heading-line uk-text-center space"><span>Subscribe to get more!</span></h2>
-		<h2 class="uk-heading-line uk-text-center" id="contact"><span>Get In Touch</span></h2>
-		<div class="uk-flex uk-flex-center">
-			<div><img class="social" src="images/social/facbook.svg"></div>
-			<div><img class="social" src="images/social/twitter.svg"></div>
-			<div><img class="social" src="images/social/youtube.svg"></div>
-			<div><img class="social" src="images/social/rss.svg"></div>
-		</div>
-
-        <!-- Footer -->
-            <div class="footer uk-text-center">
-				Copyright &copy; 2017 Setsuna Ken - Made with &#x2764; in Germany
-				<br />Powered by <a href="https://gohugo.io/">Hugo</a> &amp; <a href="https://getuikit.com/">Ulkit</a> - <a href="#start" uk-scroll><strong>&#8593; SCROLL UP &#8593;</strong></a>
-            </div>
-	</div>
+    <!-- Footer -->
+    <div class="footer uk-text-center">
+        <h2 class="uk-text-center" id="contact">Stay In Touch</h2>
+        <p class="uk-text-center lite">Follow us and get the latest news</p>
+        <div class="uk-flex uk-flex-center">
+            <div><img class="social" src="images/social/facbook2.svg"></div>
+            <div><img class="social" src="images/social/twitter2.svg"></div>
+            <div><img class="social" src="images/social/youtube2.svg"></div>
+            <div><img class="social" src="images/social/rss2.svg"></div>
+        </div>
+        <p>Copyright &copy; 2017 Setsuna Ken - Made with &#x2764; in Germany<br />
+        Powered by <a href="http://jigsaw.tighten.co/">Jigsaw</a> &amp; <a href="https://getuikit.com/">Ulkit</a> - <a href="#start" uk-scroll><strong>&#8593; SCROLL UP &#8593;</strong></a></p>
+    </div>
     <!-- JS libs -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<script src="js/pace.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.6/js/uikit.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/pace.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.9/js/uikit.min.js"></script>
 </body>
+
 </html>

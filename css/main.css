@@ -1,10 +1,29 @@
+/** Fonts **/
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+/** Basics **/
+html, body, h1, h2, h4 {
+  font-family: 'Lato', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3 {
+  font-weight: 300;
+}
+
+@media (min-width: 1200px) {
+.uk-card-body {
+    padding: 20px 40px;
+  }
+}
+
+
+
 @media screen and (max-width: 750px) {
     .uk-navbar-nav {
         display: none !important;
     }
-	.uk-navbar-container:not(.uk-navbar-transparent) {
-		border-bottom: solid 1px rgba(0, 0, 0, 0.08);
-	}
 }
 
 @media screen and (min-width: 750px) {
@@ -14,26 +33,21 @@
     }
 }
 
-.uk-container-expand {
-    max-width: 1280px;
+.uk-card-body {
+    padding: 20px 30px;
 }
 
 .space {
-	margin-bottom: 50px;
-	margin-top: 50px;
+	margin-bottom: 30px;
 }
 
-html, body {
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-}
 
 .uk-navbar-container:not(.uk-navbar-transparent) {
   background: #ffffff;
-	border-bottom: solid 1px rgba(0, 0, 0, 0.08);
+
 }
 .logo-img {
-	margin-top: 75px;
+	padding-top: 20px;
 }
 
 .social {
@@ -46,17 +60,44 @@ html, body {
 .footer {
 	margin-top: 20px;
 	font-size: small;
-  padding-bottom: 20px;
+  padding-top: 20px;
 	bottom: 0;
+  background-color: #fcfcfc;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  min-height: 60px;
 }
 
 .beta {
-  margin-right: 20px;
   border-radius: 3px;
 	margin-left: 10px;
 	padding: 0 20px;
 }
 
-.uk-form-width-medium {
-    width: 300px;
+.lite {
+  font-weight: 300;
+  font-size: 1.25rem;
+}
+
+
+.uk-container-small {
+  max-width: 700px;
+}
+/*** Website Sections ***/
+
+.promo {
+  padding-top: 75px;
+}
+
+.promo2 {
+  padding-top: 25px;
+  margin-bottom: 40px;
+}
+
+.games {
+  background-color: #fcfcfc;
+  padding-top: 25px;
+  padding-bottom: 50px;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+
 }
