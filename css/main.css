@@ -1,35 +1,44 @@
 /** Fonts **/
+
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
 
 /** Basics **/
+
 html, body, h1, h2, h4 {
-  font-family: 'Lato', sans-serif;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+    font-family: 'Lato', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 h1, h2, h3 {
-  font-weight: 300;
+    font-weight: 300;
 }
 
 @media (min-width: 1200px) {
-.uk-card-body {
-    padding: 20px 40px;
-  }
+    .uk-card-body {
+        padding: 20px 40px;
+    }
 }
-
-
 
 @media screen and (max-width: 750px) {
     .uk-navbar-nav {
         display: none !important;
+    }
+    .uk-logo {
+        font-size: 1.1rem;
+        font-family: 'Lato', sans-serif;
+        color: #666;
+        text-decoration: none;
+    }
+    .beta {
+        padding: 0 10px;
     }
 }
 
 @media screen and (min-width: 750px) {
     .uk-navbar-toggle {
         display: none !important;
-        overflow:hidden;
+        overflow: hidden;
     }
 }
 
@@ -38,66 +47,65 @@ h1, h2, h3 {
 }
 
 .space {
-	margin-bottom: 30px;
+    margin-bottom: 30px;
 }
-
 
 .uk-navbar-container:not(.uk-navbar-transparent) {
-  background: #ffffff;
-
+    background: #ffffff;
 }
+
 .logo-img {
-	padding-top: 20px;
+    padding-top: 20px;
 }
 
 .social {
-	width: 32px;
-	height: auto;
-	margin-right: 2px;
-	margin-left: 2px;
+    width: 32px;
+    height: auto;
+    margin-right: 2px;
+    margin-left: 2px;
 }
 
 .footer {
-	margin-top: 20px;
-	font-size: small;
-  padding-top: 20px;
-	bottom: 0;
-  background-color: #fcfcfc;
-  border-top: 1px solid rgba(0, 0, 0, 0.12);
-  min-height: 60px;
+    margin-top: 20px;
+    font-size: small;
+    padding-top: 20px;
+    bottom: 0;
+    background-color: #f8f8f8;
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+    min-height: 60px;
 }
 
 .beta {
-  border-radius: 3px;
-	margin-left: 10px;
-	padding: 0 20px;
+    border-radius: 3px;
+    margin-left: 10px;
+    padding: 0 20px;
 }
 
 .lite {
-  font-weight: 300;
-  font-size: 1.25rem;
+    font-weight: 300;
+    font-size: 1.25rem;
 }
-
 
 .uk-container-small {
-  max-width: 700px;
+    max-width: 700px;
 }
+
+
 /*** Website Sections ***/
 
 .promo {
-  padding-top: 75px;
+    padding-top: 75px;
 }
 
 .promo2 {
-  padding-top: 25px;
-  margin-bottom: 40px;
+    padding-top: 25px;
+    margin-bottom: 40px;
 }
 
 .games {
-  background-color: #fcfcfc;
-  padding-top: 25px;
-  padding-bottom: 50px;
-  border-top: 1px solid rgba(0, 0, 0, 0.12);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
-
+    background-color: #f8f8f8;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
 }
