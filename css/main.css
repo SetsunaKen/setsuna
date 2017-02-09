@@ -136,6 +136,16 @@ h1, h2, h3 {
     border-radius: 3px;
 }
 
+.uk-nav-header {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+}
+
+.mobile-list-nav {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.0rem;
+}
+
 
 /*** Website Sections ***/
 
