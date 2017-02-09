@@ -11,20 +11,14 @@ html, body, h1, h2, h4 {
 }
 
 body {
-    background-image: url("../images/cherry.png");
-    background-repeat: no-repeat;
+    background-image: url("../images/blossom.png");
+    background-repeat: x-repeat;
     background-attachment: fixed;
-    background-position: left 100px;
+    background-position: left 50px;
 }
 
 h1, h2, h3 {
     font-weight: 300;
-}
-
-@media (min-width: 1200px) {
-    .uk-card-body {
-        padding: 20px 40px;
-    }
 }
 
 @media screen and (max-width: 750px) {
@@ -36,6 +30,9 @@ h1, h2, h3 {
         font-family: 'Lato', sans-serif;
         color: #666;
         text-decoration: none;
+    }
+    .uk-navbar-container:not(.uk-navbar-transparent) {
+        background: #fff;
     }
     .beta {
         margin-right: 10px;
@@ -63,6 +60,9 @@ h1, h2, h3 {
     .beta {
         padding: 0 20px;
     }
+    .uk-navbar-container:not(.uk-navbar-transparent) {
+        background: transparent;
+    }
 }
 
 .uk-card-body {
@@ -71,10 +71,6 @@ h1, h2, h3 {
 
 .space {
     margin-bottom: 30px;
-}
-
-.uk-navbar-container:not(.uk-navbar-transparent) {
-    background: #ffffff;
 }
 
 .logo-img {
@@ -124,12 +120,20 @@ h1, h2, h3 {
     font-size: 1.25rem;
 }
 
+.red {
+    color: #ff4545;
+}
+
 .uk-container-small {
     max-width: 700px;
 }
 
 .uk-logo {
     font-family: 'Lato', sans-serif;
+}
+
+.uk-input {
+    border-radius: 3px;
 }
 
 
