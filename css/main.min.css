@@ -1,6 +1,5 @@
 @import "https://fonts.googleapis.com/css?family=Lato:300,400,700";
 html,body,h1,h2,h4{font-family:'Lato',sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
-body{background-image:url(../images/cherry.png);background-repeat:no-repeat;background-attachment:fixed;background-position:left 100px}
 h1,h2,h3{font-weight:300}
 @media (min-width: 1200px) {
 .uk-card-body{padding:20px 40px}
