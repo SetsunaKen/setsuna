@@ -1,19 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.9/css/uikit.min.css" />
     <meta name="mobile-web-app-capable" content="yes">
-    <meta name="theme-color" content="#ffffff">
+    <meta name="theme-color" content="#ffb7c5">
     <link rel="stylesheet" href="css/pace.min.css" />
     <link rel="stylesheet" href="css/main.css" />
     <title>Setsuna Ken - VN Circle</title>
 </head>
+
 <body id="start">
+
+    <div class="uk-container-expand hide2">
+        <nav class="uk-navbar-container" uk-sticky="bottom: #offset" uk-navbar>
+            <div class="uk-navbar-left">
+                <a class="uk-navbar-toggle" uk-navbar-toggle-icon href="#" uk-toggle="target: #offcanvas-nav"></a>
+                <a class="uk-navbar-item uk-logo" href="#">Setsuna Ken</a>
+            </div>
+            <div class="uk-navbar-right">
+                <a class="uk-button uk-button-danger beta" href="#">Betatesters!</a>
+            </div>
+        </nav>
+    </div>
+
+
     <div class="uk-container">
         <!-- Navbar -->
-        <nav class="uk-navbar-container" uk-navbar>
+        <nav class="uk-navbar-container hide" uk-navbar>
             <div class="uk-navbar-left">
                 <a class="uk-navbar-toggle" uk-navbar-toggle-icon href="#" uk-toggle="target: #offcanvas-nav"></a>
                 <a class="uk-navbar-item uk-logo" href="#">Setsuna Ken</a>
@@ -181,8 +197,7 @@
             <div><img class="social" src="images/social/youtube2.svg"></div>
             <div><img class="social" src="images/social/rss2.svg"></div>
         </div>
-        <p>Copyright &copy; 2017 Setsuna Ken - Made with &#x2764; in Germany<br />
-        Powered by <a href="http://jigsaw.tighten.co/">Jigsaw</a> &amp; <a href="https://getuikit.com/">Ulkit</a> - <a href="#start" uk-scroll><strong>&#8593; SCROLL UP &#8593;</strong></a></p>
+        <p>Copyright &copy; 2017 Setsuna Ken - Made with &#x2764; in Germany<br /> Powered by <a href="http://jigsaw.tighten.co/">Jigsaw</a> &amp; <a href="https://getuikit.com/">Ulkit</a> - <a href="#start" uk-scroll><strong>&#8593; SCROLL UP &#8593;</strong></a></p>
     </div>
     <!-- JS libs -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
