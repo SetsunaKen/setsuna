@@ -1,1 +1,36 @@
-@import "https://fonts.googleapis.com/css?family=Lato:300,400,700";html,body,h1,h2,h4{font-family:'Lato',sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}h1,h2,h3{font-weight:300}@media (min-width: 1200px){.uk-card-body{padding:20px 40px}}@media screen and (max-width: 750px){.uk-navbar-nav{display:none!important}.uk-logo{font-size:1.1rem;font-family:'Lato',sans-serif;color:#666;text-decoration:none}.beta{margin-right:10px;padding:0 10px}.hide{display:none}.promo{padding-top:25px}}@media screen and (min-width: 750px){.uk-navbar-toggle{display:none!important;overflow:hidden}.hide2{display:none}.promo{padding-top:50px}.beta{padding:0 20px}}.uk-card-body{padding:10px 40px 10px}.space{margin-bottom:30px}.uk-navbar-container:not(.uk-navbar-transparent){background:#fff}.logo-img{padding-top:20px}.social{width:32px;height:auto;margin-right:2px;margin-left:2px}.footer{margin-top:20px;font-size:small;padding-top:20px;bottom:0;background-color:#f8f8f8;border-top:1px solid rgba(0,0,0,0.12);padding-bottom:5px}.uk-button-default{border-radius:3px}.beta{border-radius:3px;margin-left:10px}.beta2{border-radius:3px;color:#f0506e;border-color:#f0506e}.beta2:hover{color:#fff;border-color:#f0506e;background-color:#f0506e}.lite{font-weight:300;font-size:1.25rem}.uk-container-small{max-width:700px}.uk-logo{font-family:'Lato',sans-serif}.promo2{padding-top:25px;margin-bottom:40px}.games{background-color:#f8f8f8;padding-top:25px;padding-bottom:50px;border-top:1px solid rgba(0,0,0,0.12);border-bottom:1px solid rgba(0,0,0,0.12)}
+@import "https://fonts.googleapis.com/css?family=Lato:300,400,700";
+html,body,h1,h2,h4{font-family:'Lato',sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+body{background-image:url(../images/cherry.png);background-repeat:no-repeat;background-attachment:fixed;background-position:left 100px}
+h1,h2,h3{font-weight:300}
+@media (min-width: 1200px) {
+.uk-card-body{padding:20px 40px}
+}
+@media screen and (max-width: 750px) {
+.uk-navbar-nav{display:none!important}
+.uk-logo{font-size:1.1rem;font-family:'Lato',sans-serif;color:#666;text-decoration:none}
+.beta{margin-right:10px;padding:0 10px}
+.hide{display:none}
+.promo{padding-top:25px}
+}
+@media screen and (min-width: 750px) {
+.uk-navbar-toggle{display:none!important;overflow:hidden}
+.hide2{display:none}
+.promo{padding-top:50px}
+.beta{padding:0 20px}
+}
+.uk-card-body{padding:10px 40px}
+.space{margin-bottom:30px}
+.uk-navbar-container:not(.uk-navbar-transparent){background:#fff}
+.logo-img{padding-top:20px}
+.social{width:32px;height:auto;margin-right:2px;margin-left:2px}
+.footer{margin-top:20px;font-size:small;padding-top:20px;bottom:0;background-color:#f8f8f8;border-top:1px solid rgba(0,0,0,0.12);padding-bottom:5px}
+.uk-button-default{border-radius:3px}
+.beta{border-radius:3px;margin-left:10px}
+.beta2{border-radius:3px;color:#f0506e;border-color:#f0506e}
+.beta2:hover{color:#fff;border-color:#f0506e;background-color:#f0506e}
+.lite{font-weight:300;font-size:1.25rem}
+.uk-container-small{max-width:700px}
+.uk-logo{font-family:'Lato',sans-serif}
+.promo2{padding-top:25px;margin-bottom:40px}
+.games{background-color:#f8f8f8;padding-top:25px;padding-bottom:50px;border-top:1px solid rgba(0,0,0,0.12);border-bottom:1px solid rgba(0,0,0,0.12)}
+.subscribe{margin-top:10px;margin-bottom:15px}
