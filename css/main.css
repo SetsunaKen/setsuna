@@ -32,6 +32,7 @@ h1, h2, h3 {
     }
     .beta {
         margin-right: 10px;
+        padding: 0 10px;
     }
     .hide {
         display: none;
@@ -51,6 +52,9 @@ h1, h2, h3 {
     }
     .promo {
         padding-top: 50px;
+    }
+    .beta {
+        padding: 0 20px;
     }
 }
 
@@ -87,10 +91,25 @@ h1, h2, h3 {
     padding-bottom: 5px;
 }
 
+.uk-button-default {
+    border-radius: 3px;
+}
+
 .beta {
     border-radius: 3px;
     margin-left: 10px;
-    padding: 0 10px;
+}
+
+.beta2 {
+    border-radius: 3px;
+    color: #f0506e;
+    border-color: #f0506e;
+}
+
+.beta2:hover {
+    color: #fff;
+    border-color: #f0506e;
+    background-color: #f0506e;
 }
 
 .lite {
