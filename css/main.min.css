@@ -1,6 +1,6 @@
 @import "https://fonts.googleapis.com/css?family=Lato:300,400";
 html,body,h1,h2,h4{font-family:'Lato',sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
-body{background-image:url(../images/blossom.png);background-repeat:x-repeat;background-attachment:fixed;background-position:left 50px}
+body{background-image:url(../images/blossom.png);background-repeat:repeat;background-attachment:fixed;background-position:left 50px}
 h1,h2,h3{font-weight:300}
 @media screen and (max-width: 750px) {
 .uk-navbar-nav{display:none!important}

@@ -12,7 +12,7 @@ html, body, h1, h2, h4 {
 
 body {
     background-image: url("../images/blossom.png");
-    background-repeat: x-repeat;
+    background-repeat: repeat;
     background-attachment: fixed;
     background-position: left 50px;
 }
