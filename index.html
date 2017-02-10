@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.9/css/uikit.min.css" />
     <link rel="stylesheet" href="css/main.min.css" />
     <meta name="mobile-web-app-capable" content="yes">
@@ -11,6 +12,7 @@
     <meta name="description" content="A Visual Novel Dev Circle" />
     <title>Setsuna Ken - VN Circle</title>
 </head>
+
 <body id="start">
     <div class="uk-container-expand hide2">
         <nav class="uk-navbar-container" uk-sticky="bottom: #offset" uk-navbar>
@@ -82,10 +84,28 @@
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                         </div>
                         <div class="uk-card-footer">
-                            <button class="uk-button uk-button-default beta2">More</button>
+                            <a class="uk-button uk-button-default beta2" href="#modal-full" uk-toggle>More</a>
                         </div>
                     </div>
                 </div>
+
+                <div id="modal-full" class="uk-modal-full" uk-modal>
+                    <div class="uk-modal-dialog">
+                        <button class="uk-modal-close-full" type="button" uk-close></button>
+                        <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                            <div class="uk-background-cover" style="background-image: url('https://placehold.it/960x1080');" uk-height-viewport></div>
+                            <div class="uk-padding-large">
+                                <h1>Headline</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                                    laborum.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
                 <div>
                     <div class="uk-card uk-card-default">
                         <div class="uk-card-media-top">
@@ -97,7 +117,7 @@
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                         </div>
                         <div class="uk-card-footer">
-                            <button class="uk-button uk-button-default beta2">More</button>
+                            <a class="uk-button uk-button-default beta2" href="#modal-full" uk-toggle>More</a>
                         </div>
                     </div>
                 </div>
@@ -112,7 +132,7 @@
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                         </div>
                         <div class="uk-card-footer">
-                            <button class="uk-button uk-button-default beta2">More</button>
+                            <a class="uk-button uk-button-default beta2" href="#modal-full" uk-toggle>More</a>
                         </div>
                     </div>
                 </div>
@@ -185,4 +205,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js" async></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.9/js/uikit.min.js" async></script>
 </body>
+
 </html>
