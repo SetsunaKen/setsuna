@@ -5,7 +5,7 @@ h1,h2,h3{font-weight:300}
 @media screen and (max-width: 750px) {
 .uk-navbar-nav{display:none!important}
 .uk-logo{font-size:1.1rem;font-family:'Lato',sans-serif;color:#666;text-decoration:none}
-.uk-navbar-container:not(.uk-navbar-transparent){background:#fff}
+.uk-navbar-container:not(.uk-navbar-transparent){background:#fff;webkit-box-shadow:0 3px 15px -5px rgba(166,166,166,1);-moz-box-shadow:0 3px 15px -5px rgba(166,166,166,1);box-shadow:0 3px 15px -5px rgba(166,166,166,1);height:64px}
 .beta{margin-right:10px;padding:0 10px}
 .hide{display:none}
 .promo{padding-top:25px}
