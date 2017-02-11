@@ -1,10 +1,10 @@
-/** Fonts **/
+/** -- Fonts -- **/
 
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
 
-/** Basics **/
+/** -- Basics -- **/
 
-html, body, h1, h2, h4 {
+html, body, h1, h2, h3, h4, a, li, ul, nav, p {
     font-family: 'Lato', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -17,11 +17,14 @@ body {
     background-position: left 50px;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-weight: 300;
 }
 
-@media screen and (max-width: 750px) {
+
+/** -- Responsive -- **/
+
+@media screen and (max-width: 960px) {
     .uk-navbar-nav {
         display: none !important;
     }
@@ -50,7 +53,7 @@ h1, h2, h3 {
     }
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 960px) {
     .uk-navbar-toggle {
         display: none !important;
         overflow: hidden;
@@ -68,6 +71,9 @@ h1, h2, h3 {
         background: transparent;
     }
 }
+
+
+/** -- Responsive Ende -- **/
 
 .uk-card-body {
     padding: 10px 40px 10px;
@@ -98,19 +104,21 @@ h1, h2, h3 {
     padding-bottom: 5px;
 }
 
-.uk-button-default {
+
+/** -- Buttons -- **/
+
+.uk-button {
     border-radius: 3px;
 }
 
 .beta {
-    border-radius: 3px;
     margin-left: 10px;
 }
 
 .beta2 {
-    border-radius: 3px;
     color: #f0506e;
     border-color: #f0506e;
+    background-color: white;
 }
 
 .beta2:hover {
@@ -119,6 +127,13 @@ h1, h2, h3 {
     background-color: #f0506e;
 }
 
+.uk-input {
+    border-radius: 3px;
+}
+
+
+/** ----------------------**/
+
 .lite {
     font-weight: 300;
     font-size: 1.25rem;
@@ -126,18 +141,6 @@ h1, h2, h3 {
 
 .red {
     color: #ff4545;
-}
-
-.uk-container-small {
-    max-width: 700px;
-}
-
-.uk-logo {
-    font-family: 'Lato', sans-serif;
-}
-
-.uk-input {
-    border-radius: 3px;
 }
 
 .uk-nav-header {
@@ -152,6 +155,15 @@ h1, h2, h3 {
 
 .uk-navbar-item, .uk-navbar-nav>li>a, .uk-navbar-toggle {
     font-family: 'Lato', sans-serif;
+}
+
+.uk-subnav-divider>:nth-child(n+2):not(.uk-first-column)::before {
+    content: "/";
+    height: 1.5em;
+    margin-right: 0px;
+    border-left: 0px;
+    margin-left: 0px;
+    color: #e5e5e5;
 }
 
 
@@ -174,6 +186,9 @@ h1, h2, h3 {
     margin-top: 10px;
     margin-bottom: 15px;
 }
+
+
+/** -- Pace Load -- **/
 
 .pace {
     -webkit-pointer-events: none;
