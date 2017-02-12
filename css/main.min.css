@@ -26,6 +26,8 @@ h1,h2,h3,h4{font-weight:300}
 .beta{margin-left:10px}
 .beta2{color:#f0506e;border-color:#f0506e;background-color:#fff}
 .beta2:hover{color:#fff;border-color:#f0506e;background-color:#f0506e}
+.android{color:#fff;background-color:#82c547;border-color:#82c547}
+.android:hover{background-color:#689f38;border-color:#689f38}
 .uk-input{border-radius:3px}
 .lite{font-weight:300;font-size:1.25rem}
 .red{color:#ff4545}

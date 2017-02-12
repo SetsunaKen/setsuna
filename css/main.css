@@ -127,6 +127,17 @@ h1, h2, h3, h4 {
     background-color: #f0506e;
 }
 
+.android {
+    color: white;
+    background-color: rgb(130, 197, 71);
+    border-color: rgb(130, 197, 71);
+}
+
+.android:hover {
+    background-color: rgb(104, 159, 56);
+    border-color: rgb(104, 159, 56);
+}
+
 .uk-input {
     border-radius: 3px;
 }
