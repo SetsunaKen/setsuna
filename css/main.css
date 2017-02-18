@@ -169,7 +169,7 @@ h1, h2, h3, h4 {
 }
 
 .uk-subnav-divider>:nth-child(n+2):not(.uk-first-column)::before {
-    content: "/";
+    content: "+";
     height: 1.5em;
     margin-right: 0px;
     border-left: 0px;
