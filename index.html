@@ -8,43 +8,34 @@
     <link rel="stylesheet" href="css/main.min.css" />
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="theme-color" content="#ffb7c5">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#ffb7c5">
     <meta name="author" content="darim@setsuna-ken.online" />
     <meta name="description" content="A Visual Novel Dev Circle" />
+    <!-- JS libs -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.12/js/uikit.min.js"></script>
     <title>Setsuna Ken - VN Circle</title>
 </head>
 
 <body id="start">
-    <!-- Mobile Navbar -->
-    <div class="uk-container-expand hide2">
-        <nav class="uk-navbar-container" uk-sticky="bottom: #offset" uk-navbar>
-            <div class="uk-navbar-left">
-                <a class="uk-navbar-toggle" uk-navbar-toggle-icon href="#" uk-toggle="target: #offcanvas-nav"></a>
-                <a class="uk-navbar-item uk-logo" href="#">Setsuna Ken</a>
-            </div>
-            <div class="uk-navbar-right">
-                <a class="uk-button uk-button-danger beta" href="https://goo.gl/forms/YTUVIymhnrybuJ622" target="_blank">Feedback!</a>
-            </div>
-        </nav>
-    </div>
-    <div class="uk-container">
-        <!-- Navbar -->
-        <nav class="uk-navbar-container hide" uk-navbar>
-            <div class="uk-navbar-left">
-                <a class="uk-navbar-toggle" uk-navbar-toggle-icon href="#" uk-toggle="target: #offcanvas-nav"></a>
-                <a class="uk-navbar-item uk-logo" href="#">Setsuna Ken</a>
-            </div>
-            <div class="uk-navbar-right">
-                <ul class="uk-navbar-nav uk-subnav-divider">
-                    <li class="uk-active"><a href="#start">Home</a></li>
-                    <li><a href="#games" uk-scroll>Games</a></li>
-                    <li><a href="#news" uk-scroll>News</a></li>
-                    <li><a href="#">Join Us</a></li>
-                    <li><a href="#contact" uk-scroll>Contact</a></li>
-                </ul>
-                <a class="uk-button uk-button-danger beta" href="https://goo.gl/forms/YTUVIymhnrybuJ622" target="_blank">Feedback!</a>
-            </div>
-        </nav>
-    </div>
+
+    <!-- Navbar -->
+    <nav class="uk-navbar-container" uk-sticky="bottom: #offset" uk-navbar>
+        <div class="uk-navbar-left">
+            <a class="uk-navbar-toggle" uk-navbar-toggle-icon href="#" uk-toggle="target: #offcanvas-nav"></a>
+            <a class="uk-navbar-item uk-logo" href="#">Setsuna Ken</a>
+        </div>
+        <div class="uk-navbar-right">
+            <ul class="uk-navbar-nav uk-subnav-divider">
+                <li class="uk-active"><a href="#start">Home</a></li>
+                <li><a href="#games" uk-scroll>Games</a></li>
+                <li><a href="#news" uk-scroll>News</a></li>
+                <li><a href="#">Join Us</a></li>
+                <li><a href="#contact" uk-scroll>Contact</a></li>
+            </ul>
+            <a class="uk-button uk-button-danger beta" href="https://goo.gl/forms/YTUVIymhnrybuJ622" target="_blank">Feedback!</a>
+        </div>
+    </nav>
     <!-- Off Canvas Menu -->
     <div id="offcanvas-nav" uk-offcanvas="overlay: true">
         <div class="uk-offcanvas-bar">
@@ -58,16 +49,22 @@
             </ul>
         </div>
     </div>
-    <div class="uk-container">
-        <!-- Logo Section -->
-        <section class="promo">
-            <h1 class="uk-text-center">Lorem ipsum dolor amet</h1>
-            <p class="lite uk-text-center"> Consectetur adipiscing elit, eiusmod tempor incididunt.</p>
-            <div class="logo-img">
-                <img class="uk-align-center" src="https://placehold.it/400x200" alt="Setsuna Ken - VN Circle Logo">
-            </div>
-        </section>
+
+    <!-- Banner -->
+    <section class="banner uk-background-cover"></section>
+
+    <!-- Logo Section -->
+    <section class="logo">
+        <h1 class="uk-text-center">Lorem ipsum dolor amet</h1>
+        <p class="lite uk-text-center"> Consectetur adipiscing elit, eiusmod tempor incididunt.</p>
+        <div class="logo-img">
+            <img class="uk-align-center" src="https://placehold.it/400x200" alt="Setsuna Ken - VN Circle Logo">
+        </div>
+    </section>
     </div>
+
+
+
     <!-- Our Games -->
     <section id="games" class="games">
         <div class="uk-container">
@@ -228,10 +225,6 @@
         </div>
         <p>Copyright &copy; 2017 Setsuna Ken - Made with <span class="red">&#x2764;</span> in Germany<br /> Powered by <a href="http://jigsaw.tighten.co/">Jigsaw</a> &amp; <a href="https://getuikit.com/">Ulkit</a> - <a href="#start" uk-scroll><strong>&#8593; SCROLL UP &#8593;</strong></a></p>
     </div>
-    <!-- JS libs -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js" async></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.12/js/uikit.min.js"></script>
 </body>
 
 </html>
