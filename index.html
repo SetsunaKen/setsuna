@@ -4,23 +4,23 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.13/css/uikit.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.16/css/uikit.min.css" />
     <link rel="stylesheet" href="css/main.min.css" />
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="theme-color" content="#ffb7c5">
     <meta name="apple-mobile-web-app-status-bar-style" content="#ffb7c5">
     <meta name="author" content="darim@setsuna-ken.online" />
-    <meta name="description" content="A Visual Novel Dev Circle" />
+    <meta name="description" content="Visual Novel Dev Circle" />
     <!-- JS libs -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.13/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.16/js/uikit.min.js"></script>
     <title>Setsuna Ken - VN Circle</title>
 </head>
 
 <body id="start">
 
     <!-- Navbar -->
-    <nav class="uk-navbar-container" uk-sticky="bottom: #offset" uk-navbar>
+    <nav class="uk-navbar-container" uk-navbar>
         <div class="uk-navbar-left">
             <a class="uk-navbar-toggle" uk-navbar-toggle-icon href="#" uk-toggle="target: #offcanvas-nav"></a>
             <a class="uk-navbar-item uk-logo" href="#">Setsuna Ken</a>
@@ -51,17 +51,27 @@
     </div>
 
     <!-- Banner -->
-    <section class="banner uk-background-cover uk-background-muted"></section>
+    <section class="banner uk-background-cover uk-background-muted uk-text-center">
+        <div class="uk-inline uk-visible-toggle uk-light slider">
+            <img class="shad slider-img" src="https://placehold.it/750x350" alt="">
+            <div class="uk-overlay uk-overlay-primary uk-position-bottom">
+                <p>Default Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <a class="uk-position-center-left uk-position-small uk-hidden-hover uk-slidenav-large slider" href="#" uk-slidenav-previous></a>
+            <a class="uk-position-center-right uk-position-small uk-hidden-hover uk-slidenav-large slider" href="#" uk-slidenav-next></a>
+        </div>
+
+    </section>
 
     <!-- Logo Section -->
     <div class="uk-container uk-container-expand">
-    <section class="logo">
-        <h1 class="uk-text-center">Lorem ipsum dolor amet</h1>
-        <p class="lite uk-text-center"> Consectetur adipiscing elit, eiusmod tempor incididunt.</p>
-        <div class="logo-img">
-            <img class="uk-align-center" src="https://placehold.it/400x200" alt="Setsuna Ken - VN Circle Logo">
-        </div>
-    </section>
+        <section class="logo">
+            <h1 class="uk-text-center">Lorem ipsum dolor amet</h1>
+            <p class="lite uk-text-center"> Consectetur adipiscing elit, eiusmod tempor incididunt.</p>
+            <div class="logo-img">
+                <img class="uk-align-center" src="https://placehold.it/400x200" alt="Setsuna Ken - VN Circle Logo">
+            </div>
+        </section>
     </div>
 
 
@@ -226,8 +236,8 @@
         </div>
     </div>
     <section class="uk-text-center uk-text-small credits">
-    &copy; 2017 Setsuna Ken - Made with <span class="red">&#x2764;</span> in Germany<br /> Powered by <a href="http://jigsaw.tighten.co/">Jigsaw</a> &amp; <a href="https://getuikit.com/">Ulkit</a> - <a href="#start" uk-scroll><strong>&#8593; SCROLL UP &#8593;</strong></a>
-  </section>
+        &copy; 2017 Setsuna Ken - Made with <span class="red">&#x2764;</span> in Germany<br /> Powered by <a href="http://jigsaw.tighten.co/">Jigsaw</a> &amp; <a href="https://getuikit.com/">Ulkit</a> - <a href="#start" uk-scroll><strong>&#8593; SCROLL UP &#8593;</strong></a>
+    </section>
 </body>
 
 </html>
