@@ -4,9 +4,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+    <title>Setsuna Ken - VN Circle</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.16/css/uikit.min.css" />
-    <link rel="stylesheet" href="css/main.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
     <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="theme-color" content="#ffb7c5">
     <meta name="apple-mobile-web-app-status-bar-style" content="#ffb7c5">
     <meta name="author" content="darim@setsuna-ken.online" />
@@ -14,19 +16,19 @@
     <!-- JS libs -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.16/js/uikit.min.js"></script>
-    <title>Setsuna Ken - VN Circle</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.16/js/uikit-icons.min.js"></script>
 </head>
 
-<body class="uk-animation-fade" id="start">
-
+<body>
+    <header>
     <!-- Navbar -->
-    <nav class="uk-navbar-container" uk-navbar>
+    <nav class="uk-navbar-container" uk-navbar uk-sticky>
         <div class="uk-navbar-left">
-            <a class="uk-navbar-toggle" uk-navbar-toggle-icon href="#" uk-toggle="target: #offcanvas-nav"></a>
+            <a class="uk-navbar-toggle uk-hidden@m" uk-navbar-toggle-icon href="#" uk-toggle="target: #offcanvas-nav"></a>
             <a class="uk-navbar-item uk-logo" href="#">Setsuna Ken</a>
         </div>
         <div class="uk-navbar-right">
-            <ul class="uk-navbar-nav uk-subnav-divider">
+            <ul class="uk-navbar-nav uk-subnav-divider uk-visible@m">
                 <li class="uk-active"><a href="#start">Home</a></li>
                 <li><a href="#games" uk-scroll>Games</a></li>
                 <li><a href="#news" uk-scroll>News</a></li>
@@ -49,10 +51,12 @@
             </ul>
         </div>
     </div>
+  </header>
 
+    <main class="uk-animation-fade" id="start">
     <!-- Banner -->
     <section class="banner uk-background-cover uk-background-muted uk-text-center">
-        <div class="uk-inline uk-visible-toggle uk-light slider">
+        <div class="uk-inline uk-visible-toggle uk-dark slider">
             <img class="shad slider-img" src="https://placehold.it/750x350" alt="">
             <div class="uk-overlay uk-overlay-primary uk-position-bottom">
                 <p class="uk-text-small">Default Lorem ipsum dolor sit amet, adipiscing elit.</p>
@@ -115,9 +119,9 @@
                                     <li><a href="#">Android</a></li>
                                 </ul>
                                 <ul class="uk-switcher">
-                                    <li><a class="uk-button uk-button-primary" href="">Download Win</a></li>
-                                    <li><a class="uk-button uk-button-danger" href="">Download MacOS</a></li>
-                                    <li><a class="uk-button uk-button-danger android" href="">Download Android</a></li>
+                                    <li><a class="uk-button uk-button-primary" href="">Download</a></li>
+                                    <li><a class="uk-button uk-button-danger" href="">Download</a></li>
+                                    <li><a class="uk-button uk-button-danger android" href="">Download</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -218,6 +222,9 @@
             </div>
         </div>
     </section>
+  </main>
+
+    <footer>
     <!-- Footer -->
     <div class="footer uk-text-center uk-background-muted">
         <h2 class="uk-text-center" id="contact">Stay In Touch</h2>
@@ -238,6 +245,7 @@
     <section class="uk-text-center uk-text-small credits">
         &copy; 2017 Setsuna Ken - Made with <span class="red">&#x2764;</span> in Germany<br /> Powered by <a href="http://jigsaw.tighten.co/">Jigsaw</a> &amp; <a href="https://getuikit.com/">Ulkit</a> - <a href="#start" uk-scroll><strong>&#8593; SCROLL UP &#8593;</strong></a>
     </section>
+  </footer>
 </body>
 
 </html>
