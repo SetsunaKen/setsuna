@@ -26,8 +26,7 @@ h1, h2, h3, h4 {
 
 @media screen and (max-width: 960px) {
     .uk-logo {
-        font-size: 1.1rem;
-        font-family: 'Lato', sans-serif;
+        font-size: 1.2rem;
     }
     .beta {
         margin-right: 10px;
@@ -93,7 +92,9 @@ h1, h2, h3, h4 {
 
 .uk-navbar-container:not(.uk-navbar-transparent) {
     background: #fff;
-    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    webkit-box-shadow: 0px 3px 15px -5px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 3px 15px -5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 3px 15px -5px rgba(0, 0, 0, 0.3);
     height: 64px;
 }
 
@@ -225,7 +226,7 @@ h1, h2, h3, h4 {
 
 .uk-navbar-item, .uk-navbar-nav>li>a, .uk-navbar-toggle {
     font-family: 'Lato', sans-serif;
-    color: #333;
+    color: #3e3e3e;
     -webkit-transition-duration: 0.4s;
     /* Safari */
     transition-duration: 0.4s;
@@ -237,7 +238,7 @@ h1, h2, h3, h4 {
     margin-right: 0px;
     border-left: 0px;
     margin-left: 0px;
-    color: #333;
+    color: #3e3e3e;
 }
 
 

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
     <title>Setsuna Ken - VN Circle</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.16/css/uikit.min.css" />
-    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/main.min.css" />
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="theme-color" content="#ffb7c5">
@@ -21,231 +21,231 @@
 
 <body>
     <header>
-    <!-- Navbar -->
-    <nav class="uk-navbar-container" uk-navbar uk-sticky>
-        <div class="uk-navbar-left">
-            <a class="uk-navbar-toggle uk-hidden@m" uk-navbar-toggle-icon href="#" uk-toggle="target: #offcanvas-nav"></a>
-            <a class="uk-navbar-item uk-logo" href="#">Setsuna Ken</a>
+        <!-- Navbar -->
+        <nav class="uk-navbar-container" uk-navbar uk-sticky>
+            <div class="uk-navbar-left">
+                <a class="uk-navbar-toggle uk-hidden@m" uk-navbar-toggle-icon href="#" uk-toggle="target: #offcanvas-nav"></a>
+                <a class="uk-navbar-item uk-logo" href="#">Setsuna Ken</a>
+            </div>
+            <div class="uk-navbar-right">
+                <ul class="uk-navbar-nav uk-subnav-divider uk-visible@m">
+                    <li class="uk-active"><a href="#start">Home</a></li>
+                    <li><a href="#games" uk-scroll>Games</a></li>
+                    <li><a href="#news" uk-scroll>News</a></li>
+                    <li><a href="#">Join Us</a></li>
+                    <li><a href="#contact" uk-scroll>Contact</a></li>
+                </ul>
+                <a class="uk-button uk-button-danger beta" href="https://goo.gl/forms/YTUVIymhnrybuJ622" target="_blank">Feedback!</a>
+            </div>
+        </nav>
+        <!-- Off Canvas Menu -->
+        <div id="offcanvas-nav" uk-offcanvas="overlay: true">
+            <div class="uk-offcanvas-bar">
+                <ul class="uk-nav uk-nav-default">
+                    <li class="uk-nav-header">Menu</li>
+                    <li class="uk-nav-divider"></li>
+                    <li class="uk-active mobile-list-nav"><a href="#start" uk-scroll>start</a></li>
+                    <li class="mobile-list-nav"><a href="#games" uk-scroll>games</a></li>
+                    <li class="mobile-list-nav"><a href="#news" uk-scroll>news</a></li>
+                    <li class="mobile-list-nav"><a href="#contact" uk-scroll>contact</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="uk-navbar-right">
-            <ul class="uk-navbar-nav uk-subnav-divider uk-visible@m">
-                <li class="uk-active"><a href="#start">Home</a></li>
-                <li><a href="#games" uk-scroll>Games</a></li>
-                <li><a href="#news" uk-scroll>News</a></li>
-                <li><a href="#">Join Us</a></li>
-                <li><a href="#contact" uk-scroll>Contact</a></li>
-            </ul>
-            <a class="uk-button uk-button-danger beta" href="https://goo.gl/forms/YTUVIymhnrybuJ622" target="_blank">Feedback!</a>
-        </div>
-    </nav>
-    <!-- Off Canvas Menu -->
-    <div id="offcanvas-nav" uk-offcanvas="overlay: true">
-        <div class="uk-offcanvas-bar">
-            <ul class="uk-nav uk-nav-default">
-                <li class="uk-nav-header">Menu</li>
-                <li class="uk-nav-divider"></li>
-                <li class="uk-active mobile-list-nav"><a href="#start" uk-scroll>start</a></li>
-                <li class="mobile-list-nav"><a href="#games" uk-scroll>games</a></li>
-                <li class="mobile-list-nav"><a href="#news" uk-scroll>news</a></li>
-                <li class="mobile-list-nav"><a href="#contact" uk-scroll>contact</a></li>
-            </ul>
-        </div>
-    </div>
-  </header>
+    </header>
 
     <main class="uk-animation-fade" id="start">
-    <!-- Banner -->
-    <section class="banner uk-background-cover uk-background-muted uk-text-center">
-        <div class="uk-inline uk-visible-toggle uk-dark slider">
-            <img class="shad slider-img" src="https://placehold.it/750x350" alt="">
-            <div class="uk-overlay uk-overlay-primary uk-position-bottom">
-                <p class="uk-text-small">Default Lorem ipsum dolor sit amet, adipiscing elit.</p>
+        <!-- Banner -->
+        <section class="banner uk-background-cover uk-background-muted uk-text-center">
+            <div class="uk-inline uk-visible-toggle uk-dark slider">
+                <img class="shad slider-img" src="https://placehold.it/750x350" alt="">
+                <div class="uk-overlay uk-overlay-primary uk-position-bottom">
+                    <p class="uk-text-small">Default Lorem ipsum dolor sit amet, adipiscing elit.</p>
+                </div>
+                <a class="uk-position-center-left uk-position-small uk-hidden-hover uk-slidenav-large slider" href="#" uk-slidenav-previous></a>
+                <a class="uk-position-center-right uk-position-small uk-hidden-hover uk-slidenav-large slider" href="#" uk-slidenav-next></a>
             </div>
-            <a class="uk-position-center-left uk-position-small uk-hidden-hover uk-slidenav-large slider" href="#" uk-slidenav-previous></a>
-            <a class="uk-position-center-right uk-position-small uk-hidden-hover uk-slidenav-large slider" href="#" uk-slidenav-next></a>
+
+        </section>
+
+        <!-- Logo Section -->
+        <div class="uk-container uk-container-expand">
+            <section class="logo">
+                <h1 class="uk-text-center">Lorem ipsum dolor amet</h1>
+                <p class="lite uk-text-center"> Consectetur adipiscing elit, eiusmod tempor incididunt.</p>
+                <div class="logo-img">
+                    <img class="uk-align-center" src="https://placehold.it/400x200" alt="Setsuna Ken - VN Circle Logo">
+                </div>
+            </section>
         </div>
 
-    </section>
 
-    <!-- Logo Section -->
-    <div class="uk-container uk-container-expand">
-        <section class="logo">
-            <h1 class="uk-text-center">Lorem ipsum dolor amet</h1>
-            <p class="lite uk-text-center"> Consectetur adipiscing elit, eiusmod tempor incididunt.</p>
-            <div class="logo-img">
-                <img class="uk-align-center" src="https://placehold.it/400x200" alt="Setsuna Ken - VN Circle Logo">
+
+        <!-- Our Games -->
+        <section id="games" class="games uk-background-muted">
+            <div class="uk-container">
+                <h2 class="uk-text-center">Our Games</h2>
+                <p class="lite uk-text-center space">Consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                <div class="uk-child-width-expand@s" uk-grid>
+                    <div>
+                        <div class="uk-card uk-card-default">
+                            <div class="uk-card-media-top">
+                                <img src="https://placehold.it/640x300" alt="">
+                            </div>
+                            <div class="uk-card-badge uk-label">TBA</div>
+                            <div class="uk-card-body">
+                                <h3 class="uk-card-title">Love Witch Unlimited</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                            </div>
+                            <div class="uk-card-footer">
+                                <a class="uk-button uk-button-danger beta2" href="#modal-full" uk-toggle>More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Game Modal 1 -->
+                    <div id="modal-full" class="uk-modal-full" uk-modal>
+                        <div class="uk-modal-dialog">
+                            <button class="uk-modal-close-full" type="button" uk-close></button>
+                            <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                                <div class="uk-background-cover" style="background-image: url('https://placehold.it/960x1080');" uk-height-viewport></div>
+                                <div class="uk-padding-large">
+                                    <h1>Headline</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                                        est laborum.
+                                    </p>
+                                    <ul uk-tab uk-switcher>
+                                        <li class="uk-active"><a href="#">Windows</a></li>
+                                        <li><a href="#">macOS</a></li>
+                                        <li><a href="#">Android</a></li>
+                                    </ul>
+                                    <ul class="uk-switcher">
+                                        <li><a class="uk-button uk-button-primary" href="">Download</a></li>
+                                        <li><a class="uk-button uk-button-danger" href="">Download</a></li>
+                                        <li><a class="uk-button uk-button-danger android" href="">Download</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div>
+                        <div class="uk-card uk-card-default">
+                            <div class="uk-card-media-top">
+                                <img src="https://placehold.it/640x300" alt="">
+                            </div>
+                            <div class="uk-card-badge uk-label uk-label-warning">TBA</div>
+                            <div class="uk-card-body">
+                                <h3 class="uk-card-title">The Anthem of Love</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                            </div>
+                            <div class="uk-card-footer">
+                                <a class="uk-button uk-button-danger beta2" href="#modal-full" uk-toggle>More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card uk-card-default">
+                            <div class="uk-card-media-top">
+                                <img src="https://placehold.it/640x300" alt="">
+                            </div>
+                            <div class="uk-card-badge uk-label uk-label-danger">TBA</div>
+                            <div class="uk-card-body">
+                                <h3 class="uk-card-title">Steampunk Adventure</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                            </div>
+                            <div class="uk-card-footer">
+                                <a class="uk-button uk-button-danger beta2" href="#modal-full" uk-toggle>More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
-    </div>
 
-
-
-    <!-- Our Games -->
-    <section id="games" class="games uk-background-muted">
-        <div class="uk-container">
-            <h2 class="uk-text-center">Our Games</h2>
-            <p class="lite uk-text-center space">Consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-            <div class="uk-child-width-expand@s" uk-grid uk-sortable>
-                <div>
-                    <div class="uk-card uk-card-default">
-                        <div class="uk-card-media-top">
-                            <img src="https://placehold.it/640x300" alt="">
-                        </div>
-                        <div class="uk-card-badge uk-label">TBA</div>
-                        <div class="uk-card-body">
-                            <h3 class="uk-card-title">Love Witch Unlimited</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                        </div>
-                        <div class="uk-card-footer">
-                            <a class="uk-button uk-button-danger beta2" href="#modal-full" uk-toggle>More</a>
-                        </div>
-                    </div>
+        <div id="modal-overflow" uk-modal>
+            <div class="uk-modal-dialog">
+                <button class="uk-modal-close-default" type="button" uk-close></button>
+                <div class="uk-modal-header">
+                    <h2 class="uk-modal-title">Headline</h2>
+                    <p class="uk-article-meta">Written by <a href="#">Super User</a> on 12 April 2012. Posted in <a href="#">Blog</a></p>
                 </div>
-                <!-- Game Modal 1 -->
-                <div id="modal-full" class="uk-modal-full" uk-modal>
-                    <div class="uk-modal-dialog">
-                        <button class="uk-modal-close-full" type="button" uk-close></button>
-                        <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                            <div class="uk-background-cover" style="background-image: url('https://placehold.it/960x1080');" uk-height-viewport></div>
-                            <div class="uk-padding-large">
-                                <h1>Headline</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                                    laborum.
-                                </p>
-                                <ul uk-tab uk-switcher>
-                                    <li class="uk-active"><a href="#">Windows</a></li>
-                                    <li><a href="#">macOS</a></li>
-                                    <li><a href="#">Android</a></li>
-                                </ul>
-                                <ul class="uk-switcher">
-                                    <li><a class="uk-button uk-button-primary" href="">Download</a></li>
-                                    <li><a class="uk-button uk-button-danger" href="">Download</a></li>
-                                    <li><a class="uk-button uk-button-danger android" href="">Download</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-
-                <div>
-                    <div class="uk-card uk-card-default">
-                        <div class="uk-card-media-top">
-                            <img src="https://placehold.it/640x300" alt="">
-                        </div>
-                        <div class="uk-card-badge uk-label uk-label-warning">TBA</div>
-                        <div class="uk-card-body">
-                            <h3 class="uk-card-title">The Anthem of Love</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                        </div>
-                        <div class="uk-card-footer">
-                            <a class="uk-button uk-button-danger beta2" href="#modal-full" uk-toggle>More</a>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div class="uk-card uk-card-default">
-                        <div class="uk-card-media-top">
-                            <img src="https://placehold.it/640x300" alt="">
-                        </div>
-                        <div class="uk-card-badge uk-label uk-label-danger">TBA</div>
-                        <div class="uk-card-body">
-                            <h3 class="uk-card-title">Steampunk Adventure</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                        </div>
-                        <div class="uk-card-footer">
-                            <a class="uk-button uk-button-danger beta2" href="#modal-full" uk-toggle>More</a>
-                        </div>
-                    </div>
+                <div class="uk-modal-body" uk-overflow-auto>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
             </div>
         </div>
-    </section>
 
-    <div id="modal-overflow" uk-modal>
-        <div class="uk-modal-dialog">
-            <button class="uk-modal-close-default" type="button" uk-close></button>
-            <div class="uk-modal-header">
-                <h2 class="uk-modal-title">Headline</h2>
-                <p class="uk-article-meta">Written by <a href="#">Super User</a> on 12 April 2012. Posted in <a href="#">Blog</a></p>
-            </div>
-            <div class="uk-modal-body" uk-overflow-auto>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </div>
-        </div>
-    </div>
-
-    <section class="news">
-        <div class="uk-container">
-            <h2 id="news" class="uk-text-center promo2">Latest News</h2>
-            <div class="uk-child-width-expand@s" uk-grid>
-                <div>
-                    <article class="uk-article">
-                        <h3 class=""><a class="uk-link-reset" href="">Heading Test 1</a></h3>
-                        <p class="uk-article-meta">Written by <a href="#">Super User</a> on 12 April 2012. Posted in <a href="#">Blog</a></p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <div class="uk-grid-small uk-child-width-auto" uk-grid>
-                            <div>
-                                <a class="uk-button uk-button-default" href="#modal-overflow" uk-toggle>Read more</a>
+        <section class="news">
+            <div class="uk-container">
+                <h2 id="news" class="uk-text-center promo2">Latest News</h2>
+                <div class="uk-child-width-expand@s" uk-grid>
+                    <div>
+                        <article class="uk-article">
+                            <h3 class=""><a class="uk-link-reset" href="">Heading Test 1</a></h3>
+                            <p class="uk-article-meta">Written by <a href="#">Super User</a> on 12 April 2012. Posted in <a href="#">Blog</a></p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <div class="uk-grid-small uk-child-width-auto" uk-grid>
+                                <div>
+                                    <a class="uk-button uk-button-default" href="#modal-overflow" uk-toggle>Read more</a>
+                                </div>
                             </div>
-                        </div>
-                    </article>
-                </div>
-                <div>
-                    <article class="uk-article">
-                        <h3 class=""><a class="uk-link-reset" href="">Heading Test 2</a></h3>
-                        <p class="uk-article-meta">Written by <a href="#">Super User</a> on 12 April 2012. Posted in <a href="#">Blog</a></p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <div class="uk-grid-small uk-child-width-auto" uk-grid>
-                            <div>
-                                <a class="uk-button uk-button-default" href="#modal-overflow" uk-toggle>Read more</a>
+                        </article>
+                    </div>
+                    <div>
+                        <article class="uk-article">
+                            <h3 class=""><a class="uk-link-reset" href="">Heading Test 2</a></h3>
+                            <p class="uk-article-meta">Written by <a href="#">Super User</a> on 12 April 2012. Posted in <a href="#">Blog</a></p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <div class="uk-grid-small uk-child-width-auto" uk-grid>
+                                <div>
+                                    <a class="uk-button uk-button-default" href="#modal-overflow" uk-toggle>Read more</a>
+                                </div>
                             </div>
-                        </div>
-                    </article>
-                </div>
-                <div>
-                    <article class="uk-article">
-                        <h3 class=""><a class="uk-link-reset" href="">Heading Test 3</a></h3>
-                        <p class="uk-article-meta">Written by <a href="#">Super User</a> on 12 April 2012. Posted in <a href="#">Blog</a></p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <div class="uk-grid-small uk-child-width-auto" uk-grid>
-                            <div>
-                                <a class="uk-button uk-button-default" href="#modal-overflow" uk-toggle>Read more</a>
+                        </article>
+                    </div>
+                    <div>
+                        <article class="uk-article">
+                            <h3 class=""><a class="uk-link-reset" href="">Heading Test 3</a></h3>
+                            <p class="uk-article-meta">Written by <a href="#">Super User</a> on 12 April 2012. Posted in <a href="#">Blog</a></p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <div class="uk-grid-small uk-child-width-auto" uk-grid>
+                                <div>
+                                    <a class="uk-button uk-button-default" href="#modal-overflow" uk-toggle>Read more</a>
+                                </div>
                             </div>
-                        </div>
-                    </article>
+                        </article>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-  </main>
+        </section>
+    </main>
 
     <footer>
-    <!-- Footer -->
-    <div class="footer uk-text-center uk-background-muted">
-        <h2 class="uk-text-center" id="contact">Stay In Touch</h2>
-        <p class="uk-text-center lite">Follow us and get the latest news</p>
-        <div class="subscribe">
-            <div uk-form-custom="target: true">
-                <input class="uk-input uk-form-width-medium" type="text" placeholder="Enter your Email..">
+        <!-- Footer -->
+        <div class="footer uk-text-center uk-background-muted">
+            <h2 class="uk-text-center" id="contact">Stay In Touch</h2>
+            <p class="uk-text-center lite">Follow us and get the latest news</p>
+            <div class="subscribe">
+                <div uk-form-custom="target: true">
+                    <input class="uk-input uk-form-width-medium" type="text" placeholder="Enter your Email..">
+                </div>
+                <button class="uk-button uk-button-danger">Submit</button>
             </div>
-            <button class="uk-button uk-button-danger">Submit</button>
+            <div class="uk-flex uk-flex-center">
+                <div><img class="social" src="images/social/facbook.png"></div>
+                <div><img class="social" src="images/social/twitter.png"></div>
+                <div><img class="social" src="images/social/youtube.png"></div>
+                <div><img class="social" src="images/social/rss.png"></div>
+            </div>
         </div>
-        <div class="uk-flex uk-flex-center">
-            <div><img class="social" src="images/social/facbook.png"></div>
-            <div><img class="social" src="images/social/twitter.png"></div>
-            <div><img class="social" src="images/social/youtube.png"></div>
-            <div><img class="social" src="images/social/rss.png"></div>
-        </div>
-    </div>
-    <section class="uk-text-center uk-text-small credits">
-        &copy; 2017 Setsuna Ken - Made with <span class="red">&#x2764;</span> in Germany<br /> Powered by <a href="http://jigsaw.tighten.co/">Jigsaw</a> &amp; <a href="https://getuikit.com/">Ulkit</a> - <a href="#start" uk-scroll><strong>&#8593; SCROLL UP &#8593;</strong></a>
-    </section>
-  </footer>
+        <section class="uk-text-center uk-text-small credits">
+            &copy; 2017 Setsuna Ken - Made with <span class="red">&#x2764;</span> in Germany<br /> Powered by <a href="http://jigsaw.tighten.co/">Jigsaw</a> &amp; <a href="https://getuikit.com/">Ulkit</a> - <a href="#start" uk-scroll><strong>&#8593; SCROLL UP &#8593;</strong></a>
+        </section>
+    </footer>
 </body>
 
 </html>
