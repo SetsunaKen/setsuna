@@ -1,6 +1,5 @@
 @import "https://fonts.googleapis.com/css?family=Lato:300,400,700";
 html,body,h1,h2,h3,h4,a,li,ul,nav,p{font-family:'Lato',sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
-body{background-image:url(../images/blossom.png);background-repeat:repeat;background-attachment:fixed;background-position:left 50px}
 h1,h2,h3,h4{font-weight:300}
 @media screen and (max-width: 960px) {
 .uk-logo{font-size:1.2rem}
@@ -25,7 +24,7 @@ h1,h2,h3,h4{font-weight:300}
 .uk-navbar-nav>li>a:hover{color:#f0506e}
 .uk-card-body{padding:10px 40px}
 .uk-navbar-toggle{height:64px}
-.space{margin-bottom:30px}
+.space{margin-bottom:40px}
 .logo-img{padding-top:20px}
 .shad{box-shadow:0 5px 15px rgba(0,0,0,.08)}
 .uk-overlay{padding:15px 10px}
@@ -45,6 +44,7 @@ h1,h2,h3,h4{font-weight:300}
 .mobile-list-nav{font-family:'Lato',sans-serif;font-size:1rem}
 .uk-navbar-item,.uk-navbar-nav>li>a,.uk-navbar-toggle{font-family:'Lato',sans-serif;color:#3e3e3e;-webkit-transition-duration:.4s;transition-duration:.4s}
 .uk-subnav-divider>:nth-child(n+2):not(.uk-first-column)::before{content:"+";height:1.5em;margin-right:0;border-left:0;margin-left:0;color:#3e3e3e}
-.promo2{padding-top:25px;margin-bottom:40px}
+.promo2{padding-top:25px}
 .games{padding-top:25px;padding-bottom:50px;border-top:1px solid rgba(0,0,0,0.12);border-bottom:1px solid rgba(0,0,0,0.12)}
 .subscribe{margin-top:10px;margin-bottom:15px}
+.news{padding-bottom:25px}

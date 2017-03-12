@@ -22,7 +22,7 @@
 <body id="start">
     <header>
         <!-- Navbar -->
-        <nav class="uk-navbar-container" uk-navbar uk-sticky="show-on-up: true">
+        <nav class="uk-navbar-container" uk-navbar uk-sticky="show-on-up: true; animation: uk-animation-slide-top;">
             <div class="uk-navbar-left">
                 <a class="uk-navbar-toggle uk-hidden@m" uk-navbar-toggle-icon href="#" uk-toggle="target: #offcanvas-nav"></a>
                 <a class="uk-navbar-item uk-logo" href="#">Setsuna Ken</a>
@@ -88,8 +88,8 @@
                 <div class="uk-child-width-expand@s" uk-grid>
                     <div>
                         <div class="uk-card uk-card-default">
-                            <div class="uk-card-media-top">
-                                <img src="https://placehold.it/640x300" alt="">
+                            <div class="uk-card-media-top uk-inline-clip uk-transition-toggle">
+                                <img class="uk-transition-scale-up uk-transition-opaque" src="https://placehold.it/640x300" alt="">
                             </div>
                             <div class="uk-card-badge uk-label">TBA</div>
                             <div class="uk-card-body">
@@ -132,8 +132,8 @@
 
                     <div>
                         <div class="uk-card uk-card-default">
-                            <div class="uk-card-media-top">
-                                <img src="https://placehold.it/640x300" alt="">
+                          <div class="uk-card-media-top uk-inline-clip uk-transition-toggle">
+                              <img class="uk-transition-scale-up uk-transition-opaque" src="https://placehold.it/640x300" alt="">
                             </div>
                             <div class="uk-card-badge uk-label uk-label-warning">TBA</div>
                             <div class="uk-card-body">
@@ -147,8 +147,8 @@
                     </div>
                     <div>
                         <div class="uk-card uk-card-default">
-                            <div class="uk-card-media-top">
-                                <img src="https://placehold.it/640x300" alt="">
+                          <div class="uk-card-media-top uk-inline-clip uk-transition-toggle">
+                              <img class="uk-transition-scale-up uk-transition-opaque" src="https://placehold.it/640x300" alt="">
                             </div>
                             <div class="uk-card-badge uk-label uk-label-danger">TBA</div>
                             <div class="uk-card-body">
@@ -182,6 +182,7 @@
         <section class="news">
             <div class="uk-container">
                 <h2 id="news" class="uk-text-center promo2">Latest News</h2>
+                  <p class="lite uk-text-center space">Consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                 <div class="uk-child-width-expand@s" uk-grid>
                     <div>
                         <article class="uk-article">

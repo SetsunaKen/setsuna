@@ -10,12 +10,12 @@ html, body, h1, h2, h3, h4, a, li, ul, nav, p {
     -moz-osx-font-smoothing: grayscale;
 }
 
-body {
+/** body {
     background-image: url("../images/blossom.png");
     background-repeat: repeat;
     background-attachment: fixed;
     background-position: left 50px;
-}
+} **/
 
 h1, h2, h3, h4 {
     font-weight: 300;
@@ -125,7 +125,7 @@ h1, h2, h3, h4 {
 }
 
 .space {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .logo-img {
@@ -246,7 +246,6 @@ h1, h2, h3, h4 {
 
 .promo2 {
     padding-top: 25px;
-    margin-bottom: 40px;
 }
 
 .games {
@@ -259,4 +258,8 @@ h1, h2, h3, h4 {
 .subscribe {
     margin-top: 10px;
     margin-bottom: 15px;
+}
+
+.news {
+  padding-bottom: 25px;
 }
