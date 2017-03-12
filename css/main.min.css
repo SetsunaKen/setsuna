@@ -29,7 +29,7 @@ h1,h2,h3,h4{font-weight:300}
 .shad{box-shadow:0 5px 15px rgba(0,0,0,.08)}
 .uk-overlay{padding:15px 10px}
 .social{width:32px;height:auto;margin-right:2px;margin-left:2px}
-.footer{margin-top:20px;font-size:small;padding-top:20px;border-top:1px solid rgba(0,0,0,0.12);padding-bottom:20px}
+.footer{font-size:small;padding-top:20px;border-top:1px solid rgba(0,0,0,0.12);padding-bottom:20px}
 .credits{background:#f1f1f1;font-weight:300;padding:10px 4px}
 .uk-button{border-radius:3px}
 .beta{margin-left:10px}
